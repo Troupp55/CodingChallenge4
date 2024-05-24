@@ -17,4 +17,16 @@ class Car {
       console.log(`${this.make} going at ${this.speed} km/h`);
     }
   }
+  // Commit: additonal charge property 
+  class EV extends Car {
+    constructor(make, speed, charge) {
+      super(make, speed);
+      this.charge = charge;
+    }
+  }
   
+// Commit: Implement chargeBattery method in EV class
+chargeBattery(chargeTo) {
+    this.charge = chargeTo;
+}
+
