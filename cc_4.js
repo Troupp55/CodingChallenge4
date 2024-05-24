@@ -30,3 +30,9 @@ chargeBattery(chargeTo) {
     this.charge = chargeTo;
 }
 
+// Commit: Override accelerate method in EV class to adjust speed and charge
+accelerate() {
+    this.speed += 20;
+    this.charge--;
+    console.log('${this.make} going at ${this.speed} km/h, with a charge of ${this.charge}%');
+}
