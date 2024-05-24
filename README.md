@@ -1,1 +1,1 @@
-# CodingChallenge4
+Hello, this project provides creating an EV (Electric Vehicle) class from a Car class. The EV class has an extra charge property and special methods for electric vehicles, like chargeBattery and a custom accelerate method. The project also tests the EV class with different variables.
